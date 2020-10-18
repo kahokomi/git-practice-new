@@ -24,7 +24,10 @@ h1 {
 }
 
 .main {
-  padding: 50px auto;
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box1 {
@@ -87,3 +90,24 @@ h1 {
   background-color: #bad3ff;
 }
 
+.box11 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.box12 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+footer {
+  height: 120px;
+  background-color: gray;
+  line-height: 120px;
+  text-align: center;
+}
+.footer-text {
+  color: #fff;
+}
